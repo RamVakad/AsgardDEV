@@ -1,0 +1,4 @@
+D:\PROJECTS\DEVELOPMENT\AsgardDEV\InterServer\bin\Debug\InterServer.exe
+D:\PROJECTS\DEVELOPMENT\AsgardDEV\InterServer\bin\Debug\InterServer.pdb
+D:\PROJECTS\DEVELOPMENT\AsgardDEV\InterServer\obj\x86\Debug\InterServer.exe
+D:\PROJECTS\DEVELOPMENT\AsgardDEV\InterServer\obj\x86\Debug\InterServer.pdb

@@ -1,0 +1,4 @@
+D:\PROJECTS\DEVELOPMENT\AsgardDEV\AsgardDEV\bin\Debug\AsgardDEV.dll
+D:\PROJECTS\DEVELOPMENT\AsgardDEV\AsgardDEV\bin\Debug\AsgardDEV.pdb
+D:\PROJECTS\DEVELOPMENT\AsgardDEV\AsgardDEV\obj\x86\Debug\AsgardDEV.dll
+D:\PROJECTS\DEVELOPMENT\AsgardDEV\AsgardDEV\obj\x86\Debug\AsgardDEV.pdb

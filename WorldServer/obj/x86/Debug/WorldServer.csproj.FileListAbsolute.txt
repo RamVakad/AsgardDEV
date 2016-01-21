@@ -1,0 +1,4 @@
+D:\PROJECTS\DEVELOPMENT\AsgardDEV\WorldServer\bin\Debug\WorldServer.exe
+D:\PROJECTS\DEVELOPMENT\AsgardDEV\WorldServer\bin\Debug\WorldServer.pdb
+D:\PROJECTS\DEVELOPMENT\AsgardDEV\WorldServer\obj\x86\Debug\WorldServer.exe
+D:\PROJECTS\DEVELOPMENT\AsgardDEV\WorldServer\obj\x86\Debug\WorldServer.pdb

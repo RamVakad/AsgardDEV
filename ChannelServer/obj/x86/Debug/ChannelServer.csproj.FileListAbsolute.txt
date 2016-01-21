@@ -1,0 +1,4 @@
+D:\PROJECTS\DEVELOPMENT\AsgardDEV\ChannelServer\bin\Debug\ChannelServer.exe
+D:\PROJECTS\DEVELOPMENT\AsgardDEV\ChannelServer\bin\Debug\ChannelServer.pdb
+D:\PROJECTS\DEVELOPMENT\AsgardDEV\ChannelServer\obj\x86\Debug\ChannelServer.exe
+D:\PROJECTS\DEVELOPMENT\AsgardDEV\ChannelServer\obj\x86\Debug\ChannelServer.pdb

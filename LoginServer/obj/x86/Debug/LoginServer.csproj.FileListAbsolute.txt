@@ -1,0 +1,4 @@
+D:\PROJECTS\DEVELOPMENT\AsgardDEV\LoginServer\bin\Debug\LoginServer.exe
+D:\PROJECTS\DEVELOPMENT\AsgardDEV\LoginServer\bin\Debug\LoginServer.pdb
+D:\PROJECTS\DEVELOPMENT\AsgardDEV\LoginServer\obj\x86\Debug\LoginServer.exe
+D:\PROJECTS\DEVELOPMENT\AsgardDEV\LoginServer\obj\x86\Debug\LoginServer.pdb

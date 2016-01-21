@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ACEE26D7-C7BA-4F68-9288-F5AC7C71CD5A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AsgardDEV</RootNamespace>
+    <AssemblyName>AsgardDEV</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Client\MapleClient.cs" />
+    <Compile Include="Constants\CryptoConstants.cs" />
+    <Compile Include="Constants\ServerConstants.cs" />
+    <Compile Include="Cryptography\AESEncryption.cs" />
+    <Compile Include="Cryptography\MapleCrypto.cs" />
+    <Compile Include="Cryptography\MapleCustomEncryption.cs" />
+    <Compile Include="Networking\ConnectionListener.cs" />
+    <Compile Include="Networking\Packet\IMaplePacketHandler.cs" />
+    <Compile Include="Networking\Packet\MaplePacket.cs" />
+    <Compile Include="Networking\Packet\MaplePacketReader.cs" />
+    <Compile Include="Networking\Packet\MaplePacketWriter.cs" />
+    <Compile Include="Networking\Packet\PacketProcessor.cs" />
+    <Compile Include="Networking\Packet\RecvOpCode.cs" />
+    <Compile Include="Networking\Packet\SendOpCode.cs" />
+    <Compile Include="Networking\ReceiveManager.cs" />
+    <Compile Include="Networking\Session.cs" />
+    <Compile Include="Tools\DatabaseConnection.cs" />
+    <Compile Include="Tools\Misc.cs" />
+    <Compile Include="Tools\ObjectStorage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
